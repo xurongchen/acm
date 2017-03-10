@@ -16,7 +16,7 @@ struct Matrix
                 for(int k=0;k<m;k++)
                 {
                     c.a[i][j]+=a[i][k]*b.a[k][j];
-					///c.a[i][j]=((c.a[i][j]+a[i][k]*b.a[k][j])%MOD+MOD)%MOD;//大数取模
+		///c.a[i][j]=((c.a[i][j]+a[i][k]*b.a[k][j])%MOD+MOD)%MOD;//大数取模
                 }
             }
         }
